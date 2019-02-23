@@ -1,5 +1,6 @@
-# binary-classification
+# binary-classification using LDA
 Binary classification using LDA , PCA and Max likelihood estimation
+
 Here we use Linear Discriminant Analysis to perform Binary classification.
 The Data has faces and Non-faces in it.
 We use Principal Component Analysis on the images and perform LDA on the newly obtained features
