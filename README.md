@@ -13,6 +13,7 @@ We model this as a Multivariate Gaussian and estimate the Mean and Co-Variance u
 We model two such Gaussians one for each class.
 
 PCA
+
 We do PCA on the data and perform the above method on the newly obtained data.
 We see there will be increase in accuracy( recall and precision)
 
