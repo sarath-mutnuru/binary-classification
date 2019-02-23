@@ -18,8 +18,8 @@ from  sklearn.metrics import f1_score
 #%% Reading and Preparing Data
 crnt_path=os.getcwd()
 
-train_f=readImages(os.path.join(crnt_path,'face_train'))
-train_nf=readImages(os.path.join(crnt_path,'nonface_train'))
+train_f=readImages(os.path.join(crnt_path,'data/face_train'))
+train_nf=readImages(os.path.join(crnt_path,'data/nonface_train'))
 
 
 X  = np.concatenate( ( train_f, train_nf ) )
